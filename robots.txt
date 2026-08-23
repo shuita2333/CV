@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shuita2333.github.io/CV/sitemap.xml
