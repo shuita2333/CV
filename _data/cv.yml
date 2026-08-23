@@ -1,0 +1,27 @@
+cv:
+  name: Yuanhe Zhang
+  label: Researcher
+  email: charmes-zhang@bupt.edu.cn
+  location: ""
+  image: assets/img/prof_pic.jpg
+  summary: >-
+    Researcher at Beijing University of Posts and Telecommunications working on large language
+    models, AI safety, LLM security, agent security, and multimodal model robustness.
+
+  social_networks:
+    - network: GitHub
+      username: shuita2333
+    - network: Google Scholar
+      username: t1YN_XUAAAAJ
+
+  sections:
+    Interests:
+      - name: Large language models
+        icon: fa-solid fa-language
+        keywords: "Evaluation, reliability, and instruction following"
+      - name: AI safety and security
+        icon: fa-solid fa-shield-halved
+        keywords: "Resource-consumption threats, backdoors, agent security, and defenses"
+      - name: Multimodal robustness
+        icon: fa-solid fa-wave-square
+        keywords: "Large audio language models and large vision-language models"
