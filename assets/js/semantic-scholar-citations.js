@@ -23,7 +23,7 @@
       title: "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
     },
     zhang2025pd3f: {
-      id: "DOI:10.18653/v1/2025.findings-emnlp.195",
+      id: "ARXIV:2505.18680",
       title: "PD3F: A Pluggable and Dynamic DoS-Defense Framework against Resource Consumption Attacks Targeting Large Language Models",
     },
     zhou2026mcpshield: {
@@ -39,7 +39,7 @@
       title: "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
     },
     zhang2026see: {
-      id: "DOI:10.18653/v1/2026.acl-long.866",
+      id: "ARXIV:2601.07331",
       title: "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models",
     },
     zhang2026resource: {
