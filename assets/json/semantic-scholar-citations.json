@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-08-24T12:10:04Z",
+  "updated_at": "2026-08-24T12:21:46Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 41,
@@ -37,6 +37,13 @@
       "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
       "url": "https://www.semanticscholar.org/paper/f70d84b95393c6579c216e298b5dc98fa1474151"
     },
+    "zhang2025pd3f": {
+      "citationCount": 2,
+      "externalId": "ARXIV:2505.18680",
+      "paperId": "96ded112a8bb6a1892f9937751c820e308112510",
+      "title": "PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ded112a8bb6a1892f9937751c820e308112510"
+    },
     "zhou2026mcpshield": {
       "citationCount": 4,
       "externalId": "ARXIV:2602.14281",
@@ -57,6 +64,13 @@
       "paperId": "80262cc3d034e0683c57165e2130ba545bd80497",
       "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
       "url": "https://www.semanticscholar.org/paper/80262cc3d034e0683c57165e2130ba545bd80497"
+    },
+    "zhang2026see": {
+      "citationCount": 5,
+      "externalId": "ARXIV:2601.07331",
+      "paperId": "84bd2976967ac06813428cadd73010d4eaadda81",
+      "title": "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models",
+      "url": "https://www.semanticscholar.org/paper/84bd2976967ac06813428cadd73010d4eaadda81"
     },
     "zhang2026resource": {
       "citationCount": 1,
