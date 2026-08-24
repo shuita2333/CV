@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
 
 jobs:
@@ -42,17 +43,8 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Update deployed citation cache
+      - name: Rebuild site with refreshed cache
         if: steps.commit-cache.outputs.changed == 'true'
-        run: |
-          git fetch origin gh-pages
-          deploy_dir="$(mktemp -d)"
-          git worktree add "$deploy_dir" origin/gh-pages
-          mkdir -p "$deploy_dir/assets/json"
-          cp assets/json/semantic-scholar-citations.json "$deploy_dir/assets/json/semantic-scholar-citations.json"
-          cd "$deploy_dir"
-          git add assets/json/semantic-scholar-citations.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Semantic Scholar citation counts"
-            git push origin HEAD:gh-pages
-          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
