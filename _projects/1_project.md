@@ -1,11 +1,16 @@
 ---
 layout: page
 title: Security of Large Language Models and Agents
+permalink: /projects/llm-agent-security/
+lang: en
+translation_url: /zh/projects/llm-agent-security/
 description: Research on resource-consumption threats, backdoors, and trustworthy deployment of LLM systems.
 importance: 1
 category: research
 related_publications: true
 ---
+
+<div style="text-align: right; margin-bottom: 0.75rem;"><a href="{{ '/zh/projects/llm-agent-security/' | relative_url }}" lang="zh-CN">中文</a></div>
 
 My research examines security and reliability risks that emerge when large language models are deployed as services or embedded in autonomous agents.
 

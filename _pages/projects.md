@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+lang: en
+translation_url: /zh/projects/
 description: Selected research and engineering projects.
 nav: true
 nav_order: 3
@@ -10,6 +12,8 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<div style="text-align: right; margin-bottom: 0.75rem;"><a href="{{ '/zh/projects/' | relative_url }}" lang="zh-CN">中文</a></div>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

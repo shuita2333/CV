@@ -14,6 +14,10 @@ Yuanhe Zhang's independent academic homepage, based on [al-folio](https://github
 - `_projects/`: research themes and selected projects
 - `_data/cv.yml`: structured curriculum vitae
 - `_data/socials.yml`: email, Google Scholar, and GitHub profiles
+- `assets/js/semantic-scholar-citations.js`: live Semantic Scholar citation badges
+- `_pages/*_zh.md`: Chinese counterparts under `/zh/`
+
+Semantic Scholar citation counts refresh in the browser when the public API is available. A scheduled GitHub Actions workflow also refreshes the deployed cache daily, so the most recent successful count remains visible during API rate limits.
 
 ## Deployment
 
