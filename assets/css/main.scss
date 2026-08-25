@@ -483,6 +483,26 @@ html {
   text-decoration: none !important;
 }
 
+.service-table {
+  border-top: 1px solid #d9dee2;
+  font-size: .92rem;
+  margin-bottom: 1.25rem;
+}
+
+.service-table th,
+.service-table td {
+  background: transparent;
+  border-bottom: 1px solid #bfc7cd;
+  padding: .65rem .55rem;
+  text-align: left;
+}
+
+.service-table th {
+  color: #4f5559;
+  font-weight: 700;
+  width: 30%;
+}
+
 .profile-links {
   display: flex;
   flex-wrap: wrap;
