@@ -1,1 +1,132 @@
-{"source":"Semantic Scholar Academic Graph API","updated_at":"2026-08-25T03:13:19Z","papers":{"he2025mitigating":{"citationCount":41,"externalId":"DOI:10.1016/j.ipm.2025.104150","paperId":"f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a","title":"Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation","url":"https://www.semanticscholar.org/paper/f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a"},"zhou2026corba":{"citationCount":18,"externalId":"ARXIV:2502.14529","paperId":"e104b496b4d11b67b2dff519a3602037d6fbe123","title":"CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models","url":"https://www.semanticscholar.org/paper/e104b496b4d11b67b2dff519a3602037d6fbe123"},"zhang2025crabs":{"citationCount":41,"externalId":"DOI:10.18653/v1/2025.findings-acl.580","paperId":"60c2668a9c35f366b2e28e196abb03a00a08d2b5","title":"Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under Black-box Settings","url":"https://www.semanticscholar.org/paper/60c2668a9c35f366b2e28e196abb03a00a08d2b5"},"zhu2025demonagent":{"citationCount":23,"externalId":"ARXIV:2502.12575","paperId":"7df6c899cc46514464749bbe33acc51a57cec1d6","title":"DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent","url":"https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"},"lin2026hidden":{"citationCount":11,"externalId":"ARXIV:2508.02175","paperId":"f70d84b95393c6579c216e298b5dc98fa1474151","title":"Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers","url":"https://www.semanticscholar.org/paper/f70d84b95393c6579c216e298b5dc98fa1474151"},"zhang2025pd3f":{"citationCount":2,"externalId":"ARXIV:2505.18680","paperId":"96ded112a8bb6a1892f9937751c820e308112510","title":"PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models","url":"https://www.semanticscholar.org/paper/96ded112a8bb6a1892f9937751c820e308112510"},"zhou2026mcpshield":{"citationCount":4,"externalId":"ARXIV:2602.14281","paperId":"862cf894d5234e55038e588326b0ed86eca878b3","title":"MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents","url":"https://www.semanticscholar.org/paper/862cf894d5234e55038e588326b0ed86eca878b3"},"zhang2025lifebench":{"citationCount":10,"externalId":"ARXIV:2505.16234","paperId":"5c0ede386cf01c45091c475b98bef2f78072599f","title":"LIFEBench: Evaluating Length Instruction Following in Large Language Models","url":"https://www.semanticscholar.org/paper/5c0ede386cf01c45091c475b98bef2f78072599f"},"luo2026survey":{"citationCount":4,"externalId":"ARXIV:2605.20266","paperId":"80262cc3d034e0683c57165e2130ba545bd80497","title":"A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook","url":"https://www.semanticscholar.org/paper/80262cc3d034e0683c57165e2130ba545bd80497"},"zhang2026see":{"citationCount":5,"externalId":"ARXIV:2601.07331","paperId":"84bd2976967ac06813428cadd73010d4eaadda81","title":"SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models","url":"https://www.semanticscholar.org/paper/84bd2976967ac06813428cadd73010d4eaadda81"},"zhang2026resource":{"citationCount":1,"externalId":"ARXIV:2603.16068","paperId":"fd83f3dece8ba00c6f1dec77169dd31fc3b152da","title":"Resource Consumption Threats in Large Language Models","url":"https://www.semanticscholar.org/paper/fd83f3dece8ba00c6f1dec77169dd31fc3b152da"},"wang2026recur":{"citationCount":3,"externalId":"ARXIV:2602.08214","paperId":"bdd561adfccb7e9be8589a4c573d5bb27787af56","title":"RECUR: Resource Exhaustion Attack via Recursive-Entropy Guided Counterfactual Utilization and Reflection","url":"https://www.semanticscholar.org/paper/bdd561adfccb7e9be8589a4c573d5bb27787af56"},"gao2025resource":{"citationCount":2,"externalId":"ARXIV:2507.18053","paperId":"adfc19ad22c2ba146e6c3bb27320564c65676256","title":"Resource Consumption Red-Teaming for Large Vision-Language Models","url":"https://www.semanticscholar.org/paper/adfc19ad22c2ba146e6c3bb27320564c65676256"},"wang2026helpfulness":{"citationCount":2,"externalId":"ARXIV:2602.04197","paperId":"527454d6bafd27bac7db7584fb68ba07f902eda6","title":"From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents","url":"https://www.semanticscholar.org/paper/527454d6bafd27bac7db7584fb68ba07f902eda6"},"zhang2025leechhijack":{"citationCount":4,"externalId":"ARXIV:2512.02321","paperId":"c7463808b05cc4dd058a5b5073c823dd2a69ab8a","title":"LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems","url":"https://www.semanticscholar.org/paper/c7463808b05cc4dd058a5b5073c823dd2a69ab8a"},"zhang2026structure":{"citationCount":0,"externalId":"ARXIV:2605.27927","paperId":"783c458d78aa4a54dff369a87d051a5d3a0052a7","title":"Structure-Guided Visual Perturbation Neutralization for LVLMs","url":"https://www.semanticscholar.org/paper/783c458d78aa4a54dff369a87d051a5d3a0052a7"},"lin2026echodistill":{"citationCount":0,"externalId":"ARXIV:2605.23954","paperId":"401062057bb4bb30ac9ea708170e105a5f15815e","title":"EchoDistill:Alignment Noisy-to-Clean Self-Distillation for Robust Audio LLMs","url":"https://www.semanticscholar.org/paper/401062057bb4bb30ac9ea708170e105a5f15815e"},"zhang2026larft":{"citationCount":0,"externalId":"ARXIV:2603.19255","paperId":"d545d44ce1978b397f663d25dd9736c3b397c4dc","title":"LARFT: Closing the Cognition-Action Gap for Length Instruction Following in Large Language Models","url":"https://www.semanticscholar.org/paper/d545d44ce1978b397f663d25dd9736c3b397c4dc"}}}
+{
+  "source": "Semantic Scholar Academic Graph API",
+  "updated_at": "2026-08-25T03:13:19Z",
+  "papers": {
+    "he2025mitigating": {
+      "citationCount": 41,
+      "externalId": "DOI:10.1016/j.ipm.2025.104150",
+      "paperId": "f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a",
+      "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
+      "url": "https://www.semanticscholar.org/paper/f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a"
+    },
+    "zhou2026corba": {
+      "citationCount": 18,
+      "externalId": "ARXIV:2502.14529",
+      "paperId": "e104b496b4d11b67b2dff519a3602037d6fbe123",
+      "title": "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/e104b496b4d11b67b2dff519a3602037d6fbe123"
+    },
+    "zhang2025crabs": {
+      "citationCount": 41,
+      "externalId": "DOI:10.18653/v1/2025.findings-acl.580",
+      "paperId": "60c2668a9c35f366b2e28e196abb03a00a08d2b5",
+      "title": "Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under Black-box Settings",
+      "url": "https://www.semanticscholar.org/paper/60c2668a9c35f366b2e28e196abb03a00a08d2b5"
+    },
+    "zhu2025demonagent": {
+      "citationCount": 23,
+      "externalId": "ARXIV:2502.12575",
+      "paperId": "7df6c899cc46514464749bbe33acc51a57cec1d6",
+      "title": "DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent",
+      "url": "https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"
+    },
+    "lin2026hidden": {
+      "citationCount": 11,
+      "externalId": "ARXIV:2508.02175",
+      "paperId": "f70d84b95393c6579c216e298b5dc98fa1474151",
+      "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
+      "url": "https://www.semanticscholar.org/paper/f70d84b95393c6579c216e298b5dc98fa1474151"
+    },
+    "zhang2025pd3f": {
+      "citationCount": 2,
+      "externalId": "ARXIV:2505.18680",
+      "paperId": "96ded112a8bb6a1892f9937751c820e308112510",
+      "title": "PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ded112a8bb6a1892f9937751c820e308112510"
+    },
+    "zhou2026mcpshield": {
+      "citationCount": 4,
+      "externalId": "ARXIV:2602.14281",
+      "paperId": "862cf894d5234e55038e588326b0ed86eca878b3",
+      "title": "MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents",
+      "url": "https://www.semanticscholar.org/paper/862cf894d5234e55038e588326b0ed86eca878b3"
+    },
+    "zhang2025lifebench": {
+      "citationCount": 10,
+      "externalId": "ARXIV:2505.16234",
+      "paperId": "5c0ede386cf01c45091c475b98bef2f78072599f",
+      "title": "LIFEBench: Evaluating Length Instruction Following in Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/5c0ede386cf01c45091c475b98bef2f78072599f"
+    },
+    "luo2026survey": {
+      "citationCount": 4,
+      "externalId": "ARXIV:2605.20266",
+      "paperId": "80262cc3d034e0683c57165e2130ba545bd80497",
+      "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
+      "url": "https://www.semanticscholar.org/paper/80262cc3d034e0683c57165e2130ba545bd80497"
+    },
+    "zhang2026see": {
+      "citationCount": 5,
+      "externalId": "ARXIV:2601.07331",
+      "paperId": "84bd2976967ac06813428cadd73010d4eaadda81",
+      "title": "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models",
+      "url": "https://www.semanticscholar.org/paper/84bd2976967ac06813428cadd73010d4eaadda81"
+    },
+    "zhang2026resource": {
+      "citationCount": 1,
+      "externalId": "ARXIV:2603.16068",
+      "paperId": "fd83f3dece8ba00c6f1dec77169dd31fc3b152da",
+      "title": "Resource Consumption Threats in Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/fd83f3dece8ba00c6f1dec77169dd31fc3b152da"
+    },
+    "wang2026recur": {
+      "citationCount": 3,
+      "externalId": "ARXIV:2602.08214",
+      "paperId": "bdd561adfccb7e9be8589a4c573d5bb27787af56",
+      "title": "RECUR: Resource Exhaustion Attack via Recursive-Entropy Guided Counterfactual Utilization and Reflection",
+      "url": "https://www.semanticscholar.org/paper/bdd561adfccb7e9be8589a4c573d5bb27787af56"
+    },
+    "gao2025resource": {
+      "citationCount": 2,
+      "externalId": "ARXIV:2507.18053",
+      "paperId": "adfc19ad22c2ba146e6c3bb27320564c65676256",
+      "title": "Resource Consumption Red-Teaming for Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/adfc19ad22c2ba146e6c3bb27320564c65676256"
+    },
+    "wang2026helpfulness": {
+      "citationCount": 2,
+      "externalId": "ARXIV:2602.04197",
+      "paperId": "527454d6bafd27bac7db7584fb68ba07f902eda6",
+      "title": "From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents",
+      "url": "https://www.semanticscholar.org/paper/527454d6bafd27bac7db7584fb68ba07f902eda6"
+    },
+    "zhang2025leechhijack": {
+      "citationCount": 4,
+      "externalId": "ARXIV:2512.02321",
+      "paperId": "c7463808b05cc4dd058a5b5073c823dd2a69ab8a",
+      "title": "LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems",
+      "url": "https://www.semanticscholar.org/paper/c7463808b05cc4dd058a5b5073c823dd2a69ab8a"
+    },
+    "zhang2026structure": {
+      "citationCount": 0,
+      "externalId": "ARXIV:2605.27927",
+      "paperId": "783c458d78aa4a54dff369a87d051a5d3a0052a7",
+      "title": "Structure-Guided Visual Perturbation Neutralization for LVLMs",
+      "url": "https://www.semanticscholar.org/paper/783c458d78aa4a54dff369a87d051a5d3a0052a7"
+    },
+    "lin2026echodistill": {
+      "citationCount": 0,
+      "externalId": "ARXIV:2605.23954",
+      "paperId": "401062057bb4bb30ac9ea708170e105a5f15815e",
+      "title": "EchoDistill:Alignment Noisy-to-Clean Self-Distillation for Robust Audio LLMs",
+      "url": "https://www.semanticscholar.org/paper/401062057bb4bb30ac9ea708170e105a5f15815e"
+    },
+    "zhang2026larft": {
+      "citationCount": 0,
+      "externalId": "ARXIV:2603.19255",
+      "paperId": "d545d44ce1978b397f663d25dd9736c3b397c4dc",
+      "title": "LARFT: Closing the Cognition-Action Gap for Length Instruction Following in Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/d545d44ce1978b397f663d25dd9736c3b397c4dc"
+    }
+  }
+}
