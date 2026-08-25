@@ -12,13 +12,16 @@ author:
   name: "Yuanhe Zhang"
   name_zh: "张原赫"
   avatar: "/CV/images/yuanhe-zhang.jpg"
-  bio: "Beijing University of Posts and Telecommunications"
-  bio_zh: "北京邮电大学"
+  bio: "Ph.D. Student · BUPT"
+  bio_zh: "博士研究生 · 北京邮电大学"
   location: "Beijing, China"
   location_zh: "中国，北京"
-  email: "charmes-zhang@bupt.edu.cn"
+  email: "603747072@qq.com"
   github: "shuita2333"
   googlescholar: "https://scholar.google.com/citations?user=t1YN_XUAAAAJ&hl=en"
+  semanticscholar: "https://www.semanticscholar.org/author/Yuanhe-Zhang/2336538746"
+  dblp: "https://dblp.org/pid/381/4050.html"
+  orcid: "https://orcid.org/0009-0004-6287-7374"
 
 # Files and conversion
 include:

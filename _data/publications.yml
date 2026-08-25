@@ -17,7 +17,7 @@
   year: 2026
   venue: arXiv
   title: "MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents"
-  authors: "Z. Zhou, <strong>Y. Zhang</strong>, H. Cai, M. Aloqaily, O. Bouachir, L. Pang, P. Mehrotra, et al."
+  authors: "Z. Zhou<sup>*</sup>, <strong>Y. Zhang<sup>*</sup></strong>, H. Cai, M. Aloqaily, O. Bouachir, L. Pang, P. Mehrotra, et al."
   url: "https://arxiv.org/abs/2602.14281"
 
 - key: luo2026survey
@@ -34,6 +34,9 @@
   title: "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models"
   authors: "<strong>Y. Zhang</strong>, J. Tian, Y. Zhang, S. Yan, L. Lin, Z. Zhou, L. Sun, and S. Su"
   url: "https://arxiv.org/abs/2601.07331"
+  selected: true
+  authorship: "First author"
+  authorship_zh: "第一作者"
 
 - key: zhang2026resource
   year: 2026
@@ -41,6 +44,9 @@
   title: "Resource Consumption Threats in Large Language Models"
   authors: "<strong>Y. Zhang</strong>, X. Wang, Z. Chen, W. Wang, Z. Zhang, Z. Gong, Z. Zhou, K. Wang, et al."
   url: "https://arxiv.org/abs/2603.16068"
+  selected: true
+  authorship: "First author"
+  authorship_zh: "第一作者"
 
 - key: wang2026recur
   year: 2026
@@ -53,8 +59,11 @@
   year: 2026
   venue: EMNLP
   title: "From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents"
-  authors: "X. Wang, <strong>Y. Zhang</strong>, Z. Gong, H. Gao, F. Meng, Z. Zhou, L. Sun, Y. Liu, and S. Su"
+  authors: "X. Wang<sup>*</sup>, <strong>Y. Zhang<sup>*</sup></strong>, Z. Gong, H. Gao, F. Meng, Z. Zhou, L. Sun, Y. Liu, and S. Su"
   url: "https://arxiv.org/abs/2602.04197"
+  selected: true
+  authorship: "Co-first author"
+  authorship_zh: "共同第一作者"
 
 - key: zhang2026structure
   year: 2026
@@ -90,6 +99,9 @@
   title: "CRABS: Consuming Resource via Auto-Generation for LLM-DoS Attack under Black-Box Settings"
   authors: "<strong>Y. Zhang</strong>, Z. Zhou, W. Zhang, X. Wang, X. Jia, Y. Liu, and S. Su"
   url: "https://doi.org/10.18653/v1/2025.findings-acl.580"
+  selected: true
+  authorship: "First author"
+  authorship_zh: "第一作者"
 
 - key: zhu2025demonagent
   year: 2025
@@ -104,6 +116,9 @@
   title: "PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models"
   authors: "<strong>Yuanhe Zhang</strong>, Xinyue Wang, Haoran Gao, Zhenhong Zhou, Fanyu Meng, Yuyao Zhang, and Sen Su"
   url: "https://aclanthology.org/2025.findings-emnlp.195/"
+  selected: true
+  authorship: "First author"
+  authorship_zh: "第一作者"
 
 - key: zhang2025lifebench
   year: 2025

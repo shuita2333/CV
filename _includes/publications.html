@@ -1,21 +1,59 @@
-{% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
-<div class="publication-list">
-  {% for year in years %}
-    <h2 class="publication-year">{{ year }}</h2>
-    {% assign papers = site.data.publications | where: "year", year %}
-    {% for paper in papers %}
-      <article class="publication-item" data-paper-key="{{ paper.key }}">
-        <div class="publication-meta">
-          <span class="venue-badge">{{ paper.venue }}</span>
-          {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
-          <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
-            <i class="fas fa-quote-right" aria-hidden="true"></i>
-            <span class="citation-count">—</span>
-          </a>
-        </div>
-        <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
-        <p class="publication-authors">{{ paper.authors }}</p>
-      </article>
-    {% endfor %}
+{% assign selected_papers = site.data.publications | where: "selected", true %}
+<div class="selected-publications">
+  <h2 class="subsection-title">
+    <span data-lang="en">Selected Publications</span>
+    <span data-lang="zh" hidden>代表性论文</span>
+  </h2>
+  {% for paper in selected_papers %}
+    <article class="publication-item publication-item--selected" data-paper-key="{{ paper.key }}">
+      <div class="publication-meta">
+        <span class="venue-badge">{{ paper.venue }}</span>
+        {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
+        <span class="authorship-badge">
+          <span data-lang="en">{{ paper.authorship }}</span>
+          <span data-lang="zh" hidden>{{ paper.authorship_zh }}</span>
+        </span>
+        <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
+          <i class="fas fa-quote-right" aria-hidden="true"></i>
+          <span class="citation-count">—</span>
+        </a>
+      </div>
+      <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
+      <p class="publication-authors">{{ paper.authors }}</p>
+      <div class="publication-links">
+        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>
+      </div>
+    </article>
   {% endfor %}
 </div>
+
+<details class="all-publications">
+  <summary>
+    <span data-lang="en">View all publications</span>
+    <span data-lang="zh" hidden>查看全部论文</span>
+    <span class="publication-total">{{ site.data.publications | size }}</span>
+  </summary>
+  {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
+  <div class="publication-list">
+    {% for year in years %}
+      <h2 class="publication-year">{{ year }}</h2>
+      {% assign papers = site.data.publications | where: "year", year %}
+      {% for paper in papers %}
+        <article class="publication-item" data-paper-key="{{ paper.key }}">
+          <div class="publication-meta">
+            <span class="venue-badge">{{ paper.venue }}</span>
+            {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
+            <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
+              <i class="fas fa-quote-right" aria-hidden="true"></i>
+              <span class="citation-count">—</span>
+            </a>
+          </div>
+          <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
+          <p class="publication-authors">{{ paper.authors }}</p>
+        </article>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</details>
+
+<p class="equal-contribution-note"><sup>*</sup> Equal contribution.</p>
