@@ -2,8 +2,10 @@
   "use strict";
 
   const languageToggle = document.getElementById("language-toggle");
+  const languageToggleLabel = languageToggle && languageToggle.querySelector(".language-toggle__label");
   const languageNodes = Array.from(document.querySelectorAll("[data-lang]"));
   const sectionLinks = Array.from(document.querySelectorAll(".section-link"));
+  const externalNavLinks = Array.from(document.querySelectorAll(".external-nav-link"));
 
   function setLanguage(language) {
     const current = language === "zh" ? "zh" : "en";
@@ -17,8 +19,13 @@
       link.textContent = current === "zh" ? link.dataset.labelZh : link.dataset.labelEn;
     });
 
-    if (languageToggle) {
-      languageToggle.textContent = current === "zh" ? "English" : "中文";
+    externalNavLinks.forEach((link) => {
+      const label = link.querySelector(".external-nav-label");
+      if (label) label.textContent = current === "zh" ? link.dataset.labelZh : link.dataset.labelEn;
+    });
+
+    if (languageToggle && languageToggleLabel) {
+      languageToggleLabel.textContent = current === "zh" ? "English" : "中文";
       languageToggle.setAttribute("aria-label", current === "zh" ? "Switch to English" : "切换中文");
       languageToggle.setAttribute("aria-pressed", String(current === "zh"));
     }
