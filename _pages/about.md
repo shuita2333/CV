@@ -30,10 +30,10 @@ author_profile: true
     <span data-lang="zh" hidden>最新动态</span>
   </h1>
   <div class="news-list">
-    <div class="news-item"><time>2026.08</time><p><span data-lang="en">Six papers were accepted or published at ACL 2026 (2), EMNLP 2026 (2), ICML 2026, and AAAI 2026.</span><span data-lang="zh" hidden>2026 年共有 6 篇论文被 ACL（2 篇）、EMNLP（2 篇）、ICML 和 AAAI 录用或发表。</span></p></div>
-    <div class="news-item"><time>2026.07</time><p><span data-lang="en"><strong>SEE</strong> was presented as an Oral paper at ACL 2026.</span><span data-lang="zh" hidden><strong>SEE</strong> 入选 ACL 2026 Oral 论文。</span></p></div>
-    <div class="news-item"><time>2026.01</time><p><span data-lang="en"><strong>Hidden in the Noise</strong> was presented as an Oral paper at AAAI 2026.</span><span data-lang="zh" hidden><strong>Hidden in the Noise</strong> 入选 AAAI 2026 Oral 论文。</span></p></div>
-    <div class="news-item"><time>2025.12</time><p><span data-lang="en">Five papers were accepted or published at ACL 2025, EMNLP 2025 (2), NeurIPS 2025, and <em>Information Processing &amp; Management</em>.</span><span data-lang="zh" hidden>2025 年共有 5 篇论文被 ACL、EMNLP（2 篇）、NeurIPS 和期刊 <em>Information Processing &amp; Management</em> 录用或发表。</span></p></div>
+    <div class="news-item"><time><span data-lang="en">2026.01~08</span><span data-lang="zh" hidden>2026年01~08月</span></time><p><span data-lang="en">Six papers were accepted or published at ACL 2026 (2), EMNLP 2026 (2), ICML 2026, and AAAI 2026.</span><span data-lang="zh" hidden>2026 年共有 6 篇论文被 ACL（2 篇）、EMNLP（2 篇）、ICML 和 AAAI 录用或发表。</span></p></div>
+    <div class="news-item"><time><span data-lang="en">2026.07</span><span data-lang="zh" hidden>2026年07月</span></time><p><span data-lang="en"><strong>SEE</strong> was presented as an Oral paper at ACL 2026.</span><span data-lang="zh" hidden><strong>SEE</strong> 入选 ACL 2026 Oral 论文。</span></p></div>
+    <div class="news-item"><time><span data-lang="en">2026.01</span><span data-lang="zh" hidden>2026年01月</span></time><p><span data-lang="en"><strong>Hidden in the Noise</strong> was presented as an Oral paper at AAAI 2026.</span><span data-lang="zh" hidden><strong>Hidden in the Noise</strong> 入选 AAAI 2026 Oral 论文。</span></p></div>
+    <div class="news-item"><time><span data-lang="en">2025.01~12</span><span data-lang="zh" hidden>2025年01~12月</span></time><p><span data-lang="en">Five papers were accepted or published at ACL 2025, EMNLP 2025 (2), NeurIPS 2025, and <em>Information Processing &amp; Management</em>.</span><span data-lang="zh" hidden>2025 年共有 5 篇论文被 ACL、EMNLP（2 篇）、NeurIPS 和期刊 <em>Information Processing &amp; Management</em> 录用或发表。</span></p></div>
   </div>
 </section>
 
