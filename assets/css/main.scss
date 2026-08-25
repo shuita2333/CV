@@ -243,11 +243,6 @@ html {
   margin: 0 !important;
 }
 
-.subsection-title {
-  font-size: 1.2rem;
-  margin: 1.5rem 0 .35rem;
-}
-
 .publication-year {
   border-bottom: 1px solid #e6e6e6;
   font-size: 1.18rem;
@@ -268,7 +263,6 @@ html {
 
 .venue-badge,
 .publication-note,
-.authorship-badge,
 .citation-badge {
   border-radius: 4px;
   display: inline-flex;
@@ -277,12 +271,6 @@ html {
   line-height: 1;
   padding: .35rem .52rem;
   text-decoration: none !important;
-}
-
-.authorship-badge {
-  background: #f6f0ff;
-  color: #6640a5;
-  font-weight: 600;
 }
 
 .venue-badge {
@@ -327,17 +315,53 @@ html {
 }
 
 .publication-item--selected {
-  border-left: 3px solid transparent;
-  padding-left: .8rem;
-  transition: border-color .15s ease, background-color .15s ease;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e4e8ea;
+  border-radius: 8px;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(220px, .9fr) minmax(0, 1.5fr);
+  margin: 1rem 0;
+  padding: 1rem;
+  transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
 }
 
 .publication-item--selected:hover {
-  background: #fafcfd;
-  border-left-color: #52adc8;
+  border-color: #b9d9e6;
+  box-shadow: 0 8px 22px rgba(0, 67, 96, .09);
+  transform: translateY(-2px);
+}
+
+.publication-figure {
+  align-items: center;
+  align-self: stretch;
+  background: #fff;
+  border: 1px solid #edf0f1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  min-height: 180px;
+  overflow: hidden;
+  padding: .35rem;
+}
+
+.publication-figure img {
+  display: block;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.publication-content {
+  min-width: 0;
 }
 
 .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
   margin-top: .55rem;
 }
 
@@ -512,5 +536,18 @@ html {
 
   .citation-badge {
     margin-left: 0;
+  }
+
+  .publication-item--selected {
+    gap: .8rem;
+    grid-template-columns: 1fr;
+  }
+
+  .publication-figure {
+    min-height: 0;
+  }
+
+  .publication-figure img {
+    max-height: none;
   }
 }

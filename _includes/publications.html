@@ -2,22 +2,24 @@
 <div class="selected-publications">
   {% for paper in selected_papers %}
     <article class="publication-item publication-item--selected" data-paper-key="{{ paper.key }}">
-      <div class="publication-meta">
-        <span class="venue-badge">{{ paper.venue }}</span>
-        {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
-        <span class="authorship-badge">
-          <span data-lang="en">{{ paper.authorship }}</span>
-          <span data-lang="zh" hidden>{{ paper.authorship_zh }}</span>
-        </span>
-        <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
-          <i class="fas fa-quote-right" aria-hidden="true"></i>
-          <span class="citation-count">—</span>
-        </a>
-      </div>
-      <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
-      <p class="publication-authors">{{ paper.authors }}</p>
-      <div class="publication-links">
-        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> <span data-lang="en">Paper</span><span data-lang="zh" hidden>论文</span></a>
+      <a class="publication-figure" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer" aria-label="Open paper: {{ paper.title }}">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt }}" loading="lazy">
+      </a>
+      <div class="publication-content">
+        <div class="publication-meta">
+          <span class="venue-badge">{{ paper.venue }}</span>
+          {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
+          <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
+            <i class="fas fa-quote-right" aria-hidden="true"></i>
+            <span class="citation-count">—</span>
+          </a>
+        </div>
+        <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
+        <p class="publication-authors">{{ paper.authors }}</p>
+        <div class="publication-links">
+          {% if paper.code_url %}<a href="{{ paper.code_url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> <span data-lang="en">Code</span><span data-lang="zh" hidden>代码</span></a>{% endif %}
+          <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> <span data-lang="en">Paper</span><span data-lang="zh" hidden>论文</span></a>
+        </div>
       </div>
     </article>
   {% endfor %}

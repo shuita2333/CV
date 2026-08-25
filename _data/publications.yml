@@ -35,8 +35,9 @@
   authors: "<strong>Y. Zhang</strong>, J. Tian, Y. Zhang, S. Yan, L. Lin, Z. Zhou, L. Sun, and S. Su"
   url: "https://arxiv.org/abs/2601.07331"
   selected: true
-  authorship: "First author"
-  authorship_zh: "第一作者"
+  code_url: "https://github.com/jyutian/SEEN"
+  image: "/images/publications/zhang2026see.webp"
+  image_alt: "SEE and SEEN workflow for identifying and mitigating noise interference in large audio language models"
 
 - key: zhang2026resource
   year: 2026
@@ -45,8 +46,9 @@
   authors: "<strong>Y. Zhang</strong>, X. Wang, Z. Chen, W. Wang, Z. Zhang, Z. Gong, Z. Zhou, K. Wang, et al."
   url: "https://arxiv.org/abs/2603.16068"
   selected: true
-  authorship: "First author"
-  authorship_zh: "第一作者"
+  code_url: "https://github.com/shuita2333/resource-consumption-threats-in-llms"
+  image: "/images/publications/zhang2026resource.webp"
+  image_alt: "Unified overview of resource consumption threats across large language model systems"
 
 - key: wang2026recur
   year: 2026
@@ -62,8 +64,9 @@
   authors: "X. Wang<sup>*</sup>, <strong>Y. Zhang<sup>*</sup></strong>, Z. Gong, H. Gao, F. Meng, Z. Zhou, L. Sun, Y. Liu, and S. Su"
   url: "https://arxiv.org/abs/2602.04197"
   selected: true
-  authorship: "Co-first author"
-  authorship_zh: "共同第一作者"
+  code_url: "https://github.com/wxyoio-0715/Toxic-Proactivity"
+  image: "/images/publications/wang2026helpfulness.webp"
+  image_alt: "Toxic Proactivity evaluation framework with scenario generation and multi-turn simulation"
 
 - key: zhang2026structure
   year: 2026
@@ -100,8 +103,9 @@
   authors: "<strong>Y. Zhang</strong>, Z. Zhou, W. Zhang, X. Wang, X. Jia, Y. Liu, and S. Su"
   url: "https://doi.org/10.18653/v1/2025.findings-acl.580"
   selected: true
-  authorship: "First author"
-  authorship_zh: "第一作者"
+  code_url: "https://github.com/shuita2333/AutoDoS"
+  image: "/images/publications/zhang2025crabs.webp"
+  image_alt: "AutoDoS workflow using a DoS attack tree, iterative optimization, and a length trojan strategy"
 
 - key: zhu2025demonagent
   year: 2025
@@ -117,8 +121,9 @@
   authors: "<strong>Yuanhe Zhang</strong>, Xinyue Wang, Haoran Gao, Zhenhong Zhou, Fanyu Meng, Yuyao Zhang, and Sen Su"
   url: "https://aclanthology.org/2025.findings-emnlp.195/"
   selected: true
-  authorship: "First author"
-  authorship_zh: "第一作者"
+  code_url: "https://github.com/shuita2333/PDF_defense"
+  image: "/images/publications/zhang2025pd3f.webp"
+  image_alt: "PD3F mitigation pipeline for clustering, dynamic request scheduling, and output suppression"
 
 - key: zhang2025lifebench
   year: 2025

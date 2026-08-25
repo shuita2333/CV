@@ -68,8 +68,8 @@ author_profile: true
     <span data-lang="zh" hidden>代表性论文</span>
   </h1>
   <p class="section-note">
-    <span data-lang="en">Selected papers highlight my accepted first-author and co-first-author work. Citation counts are refreshed daily from Semantic Scholar.</span>
-    <span data-lang="zh" hidden>代表作展示我目前已录用的第一作者和共同第一作者工作。引用数每日从 Semantic Scholar 更新。</span>
+    <span data-lang="en">Each selected paper includes its overview figure and verified Paper and Code links. Citation counts are refreshed daily from Semantic Scholar.</span>
+    <span data-lang="zh" hidden>每篇代表作均展示论文概览图，并提供经过核验的论文与代码链接。引用数每日从 Semantic Scholar 更新。</span>
   </p>
   {% include publications.html %}
 </section>
