@@ -81,7 +81,7 @@ author_profile: true
   </h1>
   <div class="timeline">
     <article class="timeline-item">
-      <div class="timeline-date">2025.11 - Present</div>
+      <div class="timeline-date"><span data-lang="en">2025.11 - Present</span><span data-lang="zh" hidden>2025.11 - 至今</span></div>
       <div class="timeline-content">
         <h2><span data-lang="en">Research Intern · China Mobile Jiutian Research Institute</span><span data-lang="zh" hidden>研究型实习生 · 中国移动九天公司（九天研究院）</span></h2>
         <p class="timeline-subtitle"><span data-lang="en">Language Model Center · Beijing</span><span data-lang="zh" hidden>语言模型中心 · 北京</span></p>
@@ -106,7 +106,7 @@ author_profile: true
   </h1>
   <div class="timeline">
     <article class="timeline-item">
-      <div class="timeline-date">2025.09 - 2030.09 (Expected)</div>
+      <div class="timeline-date"><span data-lang="en">2025.09 - 2030.09 (Expected)</span><span data-lang="zh" hidden>2025.09 - 2030.09（预计）</span></div>
       <div class="timeline-content">
         <h2><span data-lang="en">Ph.D. in Computer Science and Technology</span><span data-lang="zh" hidden>计算机科学与技术 · 博士在读</span></h2>
         <p class="timeline-subtitle"><span data-lang="en">Beijing University of Posts and Telecommunications · School of Computer Science</span><span data-lang="zh" hidden>北京邮电大学 · 计算机学院（国家示范性软件学院）</span></p>

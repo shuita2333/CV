@@ -21,7 +21,7 @@
       <h3 class="publication-title"><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
       <p class="publication-authors">{{ paper.authors }}</p>
       <div class="publication-links">
-        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>
+        <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> <span data-lang="en">Paper</span><span data-lang="zh" hidden>论文</span></a>
       </div>
     </article>
   {% endfor %}
@@ -56,4 +56,4 @@
   </div>
 </details>
 
-<p class="equal-contribution-note"><sup>*</sup> Equal contribution.</p>
+<p class="equal-contribution-note"><sup>*</sup> <span data-lang="en">Equal contribution.</span><span data-lang="zh" hidden>共同贡献。</span></p>

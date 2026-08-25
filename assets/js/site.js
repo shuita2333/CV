@@ -26,7 +26,7 @@
 
     if (languageToggle && languageToggleLabel) {
       languageToggleLabel.textContent = current === "zh" ? "English" : "中文";
-      languageToggle.setAttribute("aria-label", current === "zh" ? "Switch to English" : "切换中文");
+      languageToggle.setAttribute("aria-label", current === "zh" ? "Switch to English" : "切换至中文");
       languageToggle.setAttribute("aria-pressed", String(current === "zh"));
     }
 
@@ -37,12 +37,12 @@
     }
   }
 
-  let initialLanguage = "en";
+  let initialLanguage = /^zh\b/i.test(window.navigator.language || "") ? "zh" : "en";
   try {
     const storedLanguage = window.localStorage.getItem("cv-language");
     if (storedLanguage === "zh" || storedLanguage === "en") initialLanguage = storedLanguage;
   } catch (_error) {
-    initialLanguage = "en";
+    initialLanguage = /^zh\b/i.test(window.navigator.language || "") ? "zh" : "en";
   }
   setLanguage(initialLanguage);
 

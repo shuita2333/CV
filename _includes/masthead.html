@@ -12,10 +12,15 @@
               <li class="masthead__menu-item"><a class="section-link" href="{{ link.url }}" target="_self" data-label-en="{{ link.title }}" data-label-zh="{{ link.title_zh }}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li class="masthead__menu-item language-item"><button id="language-toggle" class="language-toggle" type="button" aria-label="切换中文" aria-pressed="false"><i class="fas fa-language" aria-hidden="true"></i><span class="language-toggle__label">中文</span></button></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="masthead__language">
+        <button id="language-toggle" class="language-toggle" type="button" aria-label="切换至中文" aria-pressed="false">
+          <i class="fas fa-language" aria-hidden="true"></i>
+          <span class="language-toggle__label">中文</span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
