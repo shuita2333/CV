@@ -468,6 +468,10 @@ html {
   margin-left: 0;
 }
 
+.project-links li + li {
+  margin-top: .5rem;
+}
+
 .project-links a {
   align-items: center;
   background: #f8fafb;
