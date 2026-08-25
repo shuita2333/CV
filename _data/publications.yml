@@ -98,7 +98,7 @@
 
 - key: zhang2025crabs
   year: 2025
-  venue: ACL Findings
+  venue: ACL
   title: "CRABS: Consuming Resource via Auto-Generation for LLM-DoS Attack under Black-Box Settings"
   authors: "<strong>Y. Zhang</strong>, Z. Zhou, W. Zhang, X. Wang, X. Jia, Y. Liu, and S. Su"
   url: "https://doi.org/10.18653/v1/2025.findings-acl.580"
@@ -116,7 +116,7 @@
 
 - key: zhang2025pd3f
   year: 2025
-  venue: EMNLP Findings
+  venue: EMNLP
   title: "PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models"
   authors: "<strong>Yuanhe Zhang</strong>, Xinyue Wang, Haoran Gao, Zhenhong Zhou, Fanyu Meng, Yuyao Zhang, and Sen Su"
   url: "https://aclanthology.org/2025.findings-emnlp.195/"
