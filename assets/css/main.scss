@@ -416,6 +416,17 @@ html {
   margin-top: .7rem !important;
 }
 
+.compact-cv-list {
+  font-size: .92rem;
+  list-style: disc;
+  margin: 0 0 1.25rem 1.15rem;
+}
+
+.compact-cv-list li {
+  margin-bottom: .4rem;
+  padding-left: .15rem;
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
