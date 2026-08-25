@@ -1,0 +1,278 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+/* Yuanhe Zhang single-page CV customizations */
+html {
+  scroll-behavior: smooth;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.anchor-section {
+  scroll-margin-top: 4.5rem;
+}
+
+.cv-section {
+  margin-bottom: 2.4rem;
+}
+
+.cv-section:first-child h1 {
+  margin-top: 0;
+}
+
+.language-toggle {
+  appearance: none;
+  border: 1px solid #d8d8d8;
+  border-radius: 999px;
+  background: #fff;
+  color: #494e52;
+  cursor: pointer;
+  font: inherit;
+  line-height: 1;
+  padding: .42rem .72rem;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  border-color: #52adc8;
+  color: #0076a8;
+}
+
+.section-link.is-active {
+  color: #0076a8;
+}
+
+.profile_box > .author__avatar,
+.profile_box > .author__avatar img {
+  width: 72px;
+  max-width: 72px;
+  min-width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+
+.profile_box > .author__avatar img {
+  border-radius: 50%;
+}
+
+.research-list {
+  margin-bottom: 1.25rem;
+}
+
+.research-list li {
+  margin-bottom: .45rem;
+}
+
+.section-note {
+  color: #5f6468;
+  font-size: .92rem !important;
+}
+
+.publication-year {
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1.18rem;
+  margin: 2rem 0 0;
+  padding-bottom: .45rem;
+}
+
+.publication-item {
+  border-bottom: 1px solid #efefef;
+  padding: 1.1rem 0 1.2rem;
+}
+
+.publication-meta {
+  align-items: center;
+  display: flex;
+  gap: .55rem;
+}
+
+.venue-badge,
+.publication-note,
+.citation-badge {
+  border-radius: 4px;
+  display: inline-flex;
+  font-family: $sans-serif;
+  font-size: .76rem;
+  line-height: 1;
+  padding: .35rem .52rem;
+  text-decoration: none !important;
+}
+
+.venue-badge {
+  background: #00369f;
+  color: #fff;
+  font-weight: 700;
+}
+
+.publication-note {
+  background: #f2f2f2;
+  color: #555;
+}
+
+.citation-badge {
+  align-items: center;
+  background: #edf7fa;
+  color: #006b8f;
+  gap: .4rem;
+  margin-left: auto;
+}
+
+.citation-badge:hover {
+  background: #dceff5;
+}
+
+.publication-title {
+  font-family: $sans-serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: .62rem 0 .3rem;
+}
+
+.publication-title a {
+  text-decoration: none !important;
+}
+
+.publication-authors {
+  color: #555;
+  font-size: .88rem !important;
+  line-height: 1.55;
+  margin-bottom: 0 !important;
+}
+
+@include breakpoint($large) {
+  .profile_box > .author__avatar,
+  .profile_box > .author__avatar img {
+    width: 112px;
+    max-width: 112px;
+    min-width: 112px;
+    height: 112px;
+  }
+
+  .profile_box > .author__avatar {
+    margin: 0 auto;
+  }
+
+  .profile_box > .author__avatar img {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 520px) {
+  .masthead__menu-item--lg {
+    display: none;
+  }
+
+  .language-toggle {
+    padding-left: .55rem;
+    padding-right: .55rem;
+  }
+}

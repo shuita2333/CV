@@ -1,0 +1,13 @@
+main:
+  - title: "About"
+    title_zh: "关于"
+    url: "#about"
+  - title: "Research"
+    title_zh: "研究"
+    url: "#research"
+  - title: "Publications"
+    title_zh: "论文"
+    url: "#publications"
+  - title: "Contact"
+    title_zh: "联系"
+    url: "#contact"

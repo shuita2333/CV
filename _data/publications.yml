@@ -1,0 +1,127 @@
+- key: zhou2026corba
+  year: 2026
+  venue: ACL
+  title: "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models"
+  authors: "Z. Zhou, Z. Li, J. Zhang, <strong>Y. Zhang</strong>, K. Wang, Y. Liu, and Q. Guo"
+  url: "https://arxiv.org/abs/2502.14529"
+
+- key: lin2026hidden
+  year: 2026
+  venue: AAAI
+  note: Oral
+  title: "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers"
+  authors: "L. Lin, M. Yu, K. Luo, <strong>Y. Zhang</strong>, L. Peng, D. Wang, X. Tang, Y. Zhang, X. Yang, et al."
+  url: "https://arxiv.org/abs/2508.02175"
+
+- key: zhou2026mcpshield
+  year: 2026
+  venue: arXiv
+  title: "MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents"
+  authors: "Z. Zhou, <strong>Y. Zhang</strong>, H. Cai, M. Aloqaily, O. Bouachir, L. Pang, P. Mehrotra, et al."
+  url: "https://arxiv.org/abs/2602.14281"
+
+- key: luo2026survey
+  year: 2026
+  venue: arXiv
+  title: "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook"
+  authors: "K. Luo, Z. Zhou, L. Wang, L. Lin, Y. Xiao, T. Shao, <strong>Y. Zhang</strong>, Y. Li, M. Yu, K. Lyu, et al."
+  url: "https://arxiv.org/abs/2605.20266"
+
+- key: zhang2026see
+  year: 2026
+  venue: ACL
+  note: Oral
+  title: "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models"
+  authors: "<strong>Y. Zhang</strong>, J. Tian, Y. Zhang, S. Yan, L. Lin, Z. Zhou, L. Sun, and S. Su"
+  url: "https://arxiv.org/abs/2601.07331"
+
+- key: zhang2026resource
+  year: 2026
+  venue: EMNLP
+  title: "Resource Consumption Threats in Large Language Models"
+  authors: "<strong>Y. Zhang</strong>, X. Wang, Z. Chen, W. Wang, Z. Zhang, Z. Gong, Z. Zhou, K. Wang, et al."
+  url: "https://arxiv.org/abs/2603.16068"
+
+- key: wang2026recur
+  year: 2026
+  venue: arXiv
+  title: "RECUR: Resource Exhaustion Attack via Recursive-Entropy Guided Counterfactual Utilization and Reflection"
+  authors: "Z. Wang, <strong>Y. Zhang</strong>, J. Chen, Z. Zhou, R. Liang, R. Du, J. Jia, C. Wu, and Y. Liu"
+  url: "https://arxiv.org/abs/2602.08214"
+
+- key: wang2026helpfulness
+  year: 2026
+  venue: EMNLP
+  title: "From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents"
+  authors: "X. Wang, <strong>Y. Zhang</strong>, Z. Gong, H. Gao, F. Meng, Z. Zhou, L. Sun, Y. Liu, and S. Su"
+  url: "https://arxiv.org/abs/2602.04197"
+
+- key: zhang2026structure
+  year: 2026
+  venue: arXiv
+  title: "Structure-Guided Visual Perturbation Neutralization for LVLMs"
+  authors: "<strong>Y. Zhang</strong>, X. Wang, Y. B. Ren, H. Gao, X. Zheng, Z. Zhou, F. Meng, L. Sun, and S. Su"
+  url: "https://arxiv.org/abs/2605.27927"
+
+- key: lin2026echodistill
+  year: 2026
+  venue: arXiv
+  title: "EchoDistill: Alignment Noisy-to-Clean Self-Distillation for Robust Audio LLMs"
+  authors: "L. Lin, C. Luo, K. Luo, J. Zhang, J. Wang, <strong>Y. Zhang</strong>, Y. Chen, Q. Li, G. Xi, et al."
+  url: "https://arxiv.org/abs/2605.23954"
+
+- key: zhang2026larft
+  year: 2026
+  venue: ICML
+  title: "LARFT: Closing the Cognition-Action Gap for Length Instruction Following in Large Language Models"
+  authors: "W. Zhang, L. Du, <strong>Y. Zhang</strong>, Z. Zhou, K. Wang, L. Sun, and S. Su"
+  url: "https://arxiv.org/abs/2603.19255"
+
+- key: he2025mitigating
+  year: 2025
+  venue: IP&M
+  title: "Mitigating Privacy Risks in Retrieval-Augmented Generation via Locally Private Entity Perturbation"
+  authors: "L. He, P. Tang, <strong>Y. Zhang</strong>, P. Zhou, and S. Su"
+  url: "https://doi.org/10.1016/j.ipm.2025.104150"
+
+- key: zhang2025crabs
+  year: 2025
+  venue: ACL Findings
+  title: "CRABS: Consuming Resource via Auto-Generation for LLM-DoS Attack under Black-Box Settings"
+  authors: "<strong>Y. Zhang</strong>, Z. Zhou, W. Zhang, X. Wang, X. Jia, Y. Liu, and S. Su"
+  url: "https://doi.org/10.18653/v1/2025.findings-acl.580"
+
+- key: zhu2025demonagent
+  year: 2025
+  venue: EMNLP
+  title: "DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-Based Agent"
+  authors: "P. Zhu, Z. Zhou, <strong>Y. Zhang</strong>, S. Yan, K. Wang, and S. Su"
+  url: "https://arxiv.org/abs/2502.12575"
+
+- key: zhang2025pd3f
+  year: 2025
+  venue: EMNLP Findings
+  title: "PD3F: A Pluggable and Dynamic DoS-Defense Framework Against Resource Consumption Attacks Targeting Large Language Models"
+  authors: "<strong>Yuanhe Zhang</strong>, Xinyue Wang, Haoran Gao, Zhenhong Zhou, Fanyu Meng, Yuyao Zhang, and Sen Su"
+  url: "https://aclanthology.org/2025.findings-emnlp.195/"
+
+- key: zhang2025lifebench
+  year: 2025
+  venue: NeurIPS
+  title: "LIFEBench: Evaluating Length Instruction Following in Large Language Models"
+  authors: "W. Zhang, Z. Zhou, K. Wang, J. Fang, <strong>Y. Zhang</strong>, R. Wang, G. Zhang, X. Li, et al."
+  url: "https://arxiv.org/abs/2505.16234"
+
+- key: gao2025resource
+  year: 2025
+  venue: arXiv
+  title: "Resource Consumption Red-Teaming for Large Vision-Language Models"
+  authors: "H. Gao, <strong>Y. Zhang</strong>, Z. Zhou, L. Jiang, F. Meng, Y. Xiao, L. Sun, K. Wang, Y. Liu, et al."
+  url: "https://arxiv.org/abs/2507.18053"
+
+- key: zhang2025leechhijack
+  year: 2025
+  venue: arXiv
+  title: "LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems"
+  authors: "<strong>Y. Zhang</strong>, W. Wang, Z. Zhou, K. Wang, J. Zhang, L. Sun, Y. Liu, and S. Su"
+  url: "https://arxiv.org/abs/2512.02321"
