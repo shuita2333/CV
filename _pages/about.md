@@ -64,8 +64,8 @@ author_profile: true
 
 <section id="publications" class="cv-section anchor-section" aria-labelledby="publications-heading">
   <h1 id="publications-heading">
-    <span data-lang="en">Publications</span>
-    <span data-lang="zh" hidden>论文</span>
+    <span data-lang="en">Selected Publications</span>
+    <span data-lang="zh" hidden>代表性论文</span>
   </h1>
   <p class="section-note">
     <span data-lang="en">Selected papers highlight my accepted first-author and co-first-author work. Citation counts are refreshed daily from Semantic Scholar.</span>

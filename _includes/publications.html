@@ -1,9 +1,5 @@
 {% assign selected_papers = site.data.publications | where: "selected", true %}
 <div class="selected-publications">
-  <h2 class="subsection-title">
-    <span data-lang="en">Selected Publications</span>
-    <span data-lang="zh" hidden>代表性论文</span>
-  </h2>
   {% for paper in selected_papers %}
     <article class="publication-item publication-item--selected" data-paper-key="{{ paper.key }}">
       <div class="publication-meta">
