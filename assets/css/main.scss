@@ -110,6 +110,7 @@ h1:before, .anchor:before {
 
 /* Yuanhe Zhang single-page CV customizations */
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -127,6 +128,16 @@ html {
 
 .cv-section:first-child h1 {
   margin-top: 0;
+}
+
+.cv-section > h1 {
+  font-size: 1.55rem;
+}
+
+.section-icon {
+  display: inline-block;
+  margin-right: .3rem;
+  vertical-align: -.05em;
 }
 
 .masthead__menu {
@@ -193,12 +204,23 @@ html {
   border-radius: 50%;
 }
 
-.research-list {
+.research-list,
+.compact-cv-list {
+  font-size: 1.02rem;
   margin-bottom: 1.25rem;
+  margin-left: 0;
+  padding-inline-start: 1.35rem;
 }
 
-.research-list li {
+.research-list li,
+.compact-cv-list li {
   margin-bottom: .45rem;
+}
+
+.research-list li::marker,
+.compact-cv-list li::marker {
+  color: #0076a8;
+  font-size: 1.1em;
 }
 
 .section-note {
@@ -417,13 +439,11 @@ html {
 }
 
 .compact-cv-list {
-  font-size: .92rem;
   list-style: disc;
-  margin: 0 0 1.25rem 1.15rem;
+  margin-top: 0;
 }
 
 .compact-cv-list li {
-  margin-bottom: .4rem;
   padding-left: .15rem;
 }
 

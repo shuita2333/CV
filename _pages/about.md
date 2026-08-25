@@ -7,6 +7,7 @@ author_profile: true
 
 <section id="about" class="cv-section anchor-section" aria-labelledby="about-heading">
   <h1 id="about-heading">
+    <span class="section-icon" aria-hidden="true">👋</span>
     <span data-lang="en">About</span>
     <span data-lang="zh" hidden>关于</span>
   </h1>
@@ -26,6 +27,7 @@ author_profile: true
 
 <section id="news" class="cv-section anchor-section" aria-labelledby="news-heading">
   <h1 id="news-heading">
+    <span class="section-icon" aria-hidden="true">🔥</span>
     <span data-lang="en">News</span>
     <span data-lang="zh" hidden>最新动态</span>
   </h1>
@@ -39,6 +41,7 @@ author_profile: true
 
 <section id="research" class="cv-section anchor-section" aria-labelledby="research-heading">
   <h1 id="research-heading">
+    <span class="section-icon" aria-hidden="true">🔬</span>
     <span data-lang="en">Research</span>
     <span data-lang="zh" hidden>研究方向</span>
   </h1>
@@ -64,6 +67,7 @@ author_profile: true
 
 <section id="publications" class="cv-section anchor-section" aria-labelledby="publications-heading">
   <h1 id="publications-heading">
+    <span class="section-icon" aria-hidden="true">📝</span>
     <span data-lang="en">Selected Publications</span>
     <span data-lang="zh" hidden>代表性论文</span>
   </h1>
@@ -72,6 +76,7 @@ author_profile: true
 
 <section id="experience" class="cv-section anchor-section" aria-labelledby="experience-heading">
   <h1 id="experience-heading">
+    <span class="section-icon" aria-hidden="true">💼</span>
     <span data-lang="en">Research Experience</span>
     <span data-lang="zh" hidden>实习经历</span>
   </h1>
@@ -83,6 +88,7 @@ author_profile: true
 
 <section id="education" class="cv-section anchor-section" aria-labelledby="education-heading">
   <h1 id="education-heading">
+    <span class="section-icon" aria-hidden="true">🎓</span>
     <span data-lang="en">Education</span>
     <span data-lang="zh" hidden>教育经历</span>
   </h1>
@@ -94,6 +100,7 @@ author_profile: true
 
 <section id="projects" class="cv-section anchor-section" aria-labelledby="projects-heading">
   <h1 id="projects-heading">
+    <span class="section-icon" aria-hidden="true">💻</span>
     <span data-lang="en">Projects</span>
     <span data-lang="zh" hidden>项目</span>
   </h1>
@@ -105,6 +112,7 @@ author_profile: true
 
 <section id="service" class="cv-section anchor-section" aria-labelledby="service-heading">
   <h1 id="service-heading">
+    <span class="section-icon" aria-hidden="true">🤝</span>
     <span data-lang="en">Academic Service</span>
     <span data-lang="zh" hidden>学术服务</span>
   </h1>
@@ -120,6 +128,7 @@ author_profile: true
 
 <section id="contact" class="cv-section anchor-section" aria-labelledby="contact-heading">
   <h1 id="contact-heading">
+    <span class="section-icon" aria-hidden="true">✉️</span>
     <span data-lang="en">Contact</span>
     <span data-lang="zh" hidden>联系方式</span>
   </h1>
