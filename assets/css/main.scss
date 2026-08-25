@@ -547,20 +547,24 @@ html {
 }
 
 @include breakpoint($large) {
-  .profile_box > .author__avatar,
-  .profile_box > .author__avatar img {
-    width: 112px;
-    max-width: 112px;
-    min-width: 112px;
-    height: 112px;
-  }
-
   .profile_box > .author__avatar {
-    margin: 0 auto;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
   }
 
   .profile_box > .author__avatar img {
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    min-width: 0;
+    object-fit: cover;
     padding: 4px;
+    width: 100%;
   }
 }
 
