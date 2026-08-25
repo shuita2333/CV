@@ -7,7 +7,7 @@
       </a>
       <div class="publication-content">
         <div class="publication-meta">
-          <span class="venue-badge">{{ paper.venue }}</span>
+          <span class="venue-badge">{{ paper.venue }} {{ paper.year }}</span>
           {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
           <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
             <i class="fas fa-quote-right" aria-hidden="true"></i>
@@ -39,7 +39,7 @@
       {% for paper in papers %}
         <article class="publication-item" data-paper-key="{{ paper.key }}">
           <div class="publication-meta">
-            <span class="venue-badge">{{ paper.venue }}</span>
+            <span class="venue-badge">{{ paper.venue }} {{ paper.year }}</span>
             {% if paper.note %}<span class="publication-note">{{ paper.note }}</span>{% endif %}
             <a class="citation-badge" href="https://www.semanticscholar.org/search?q={{ paper.title | url_encode }}" target="_blank" rel="noopener noreferrer" aria-label="Semantic Scholar citations for {{ paper.title }}">
               <i class="fas fa-quote-right" aria-hidden="true"></i>
