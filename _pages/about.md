@@ -85,7 +85,6 @@ author_profile: true
       <div class="timeline-content">
         <h2><span data-lang="en">Research Intern · China Mobile Jiutian Research Institute</span><span data-lang="zh" hidden>研究型实习生 · 中国移动九天公司（九天研究院）</span></h2>
         <p class="timeline-subtitle"><span data-lang="en">Language Model Center · Beijing</span><span data-lang="zh" hidden>语言模型中心 · 北京</span></p>
-        <p><span data-lang="en">Contributed to a national-level trustworthy AI initiative. Designed a black-box jailbreak prompt generation strategy and built 1,000 safety-enhancement samples, reducing the attack success rate of a reasoning model from 0.97 to 0.37 while limiting the decrease on standard QA to 0.06.</span><span data-lang="zh" hidden>参与九天安全可信国家级项目，设计黑盒越狱提示词生成策略并构建 1,000 条安全增强数据，使深度思考模型的越狱攻击成功率由 0.97 降至 0.37，同时常规问答能力仅下降 0.06。</span></p>
       </div>
     </article>
     <article class="timeline-item">
@@ -93,7 +92,6 @@ author_profile: true
       <div class="timeline-content">
         <h2><span data-lang="en">Research Intern · China Mobile Research Institute</span><span data-lang="zh" hidden>研究型实习生 · 中国移动通信有限公司研究院</span></h2>
         <p class="timeline-subtitle"><span data-lang="en">AI and Intelligent Operations Center · Beijing</span><span data-lang="zh" hidden>人工智能与智慧运营中心 · 北京</span></p>
-        <p><span data-lang="en">Developed an automated safety-data generation pipeline using multidimensional topic construction and mutation strategies. Produced 6,000 China-context safety-boundary samples covering 42 primary dimensions and 145 secondary safety tasks.</span><span data-lang="zh" hidden>研究安全体系构建与数据多样化方法，通过多维主题与变异策略实现自动化安全数据生成，形成 6,000 条符合中国语境的安全边界样本，覆盖 42 个一级维度与 145 个二级安全任务。</span></p>
       </div>
     </article>
   </div>
