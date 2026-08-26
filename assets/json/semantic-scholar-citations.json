@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-08-25T03:13:19Z",
+  "updated_at": "2026-08-26T03:19:35Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 41,
@@ -17,7 +17,7 @@
       "url": "https://www.semanticscholar.org/paper/e104b496b4d11b67b2dff519a3602037d6fbe123"
     },
     "zhang2025crabs": {
-      "citationCount": 41,
+      "citationCount": 42,
       "externalId": "DOI:10.18653/v1/2025.findings-acl.580",
       "paperId": "60c2668a9c35f366b2e28e196abb03a00a08d2b5",
       "title": "Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under Black-box Settings",
