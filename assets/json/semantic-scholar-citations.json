@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-09-02T07:06:53Z",
+  "updated_at": "2026-09-03T07:11:28Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 41,
@@ -10,7 +10,7 @@
       "url": "https://www.semanticscholar.org/paper/f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a"
     },
     "zhou2026corba": {
-      "citationCount": 19,
+      "citationCount": 20,
       "externalId": "ARXIV:2502.14529",
       "paperId": "e104b496b4d11b67b2dff519a3602037d6fbe123",
       "title": "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models",
