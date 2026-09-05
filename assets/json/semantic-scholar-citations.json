@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-09-04T07:14:42Z",
+  "updated_at": "2026-09-05T06:56:42Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 41,
@@ -94,7 +94,7 @@
       "url": "https://www.semanticscholar.org/paper/adfc19ad22c2ba146e6c3bb27320564c65676256"
     },
     "wang2026helpfulness": {
-      "citationCount": 2,
+      "citationCount": 3,
       "externalId": "ARXIV:2602.04197",
       "paperId": "527454d6bafd27bac7db7584fb68ba07f902eda6",
       "title": "From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents",
