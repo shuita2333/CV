@@ -1,9 +1,9 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-09-07T07:20:32Z",
+  "updated_at": "2026-09-08T07:15:20Z",
   "papers": {
     "he2025mitigating": {
-      "citationCount": 41,
+      "citationCount": 42,
       "externalId": "DOI:10.1016/j.ipm.2025.104150",
       "paperId": "f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a",
       "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
@@ -52,7 +52,7 @@
       "url": "https://www.semanticscholar.org/paper/862cf894d5234e55038e588326b0ed86eca878b3"
     },
     "zhang2025lifebench": {
-      "citationCount": 10,
+      "citationCount": 11,
       "externalId": "ARXIV:2505.16234",
       "paperId": "5c0ede386cf01c45091c475b98bef2f78072599f",
       "title": "LIFEBench: Evaluating Length Instruction Following in Large Language Models",
