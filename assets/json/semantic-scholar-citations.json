@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-09-15T07:45:59Z",
+  "updated_at": "2026-09-16T07:42:14Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 46,
@@ -24,7 +24,7 @@
       "url": "https://www.semanticscholar.org/paper/60c2668a9c35f366b2e28e196abb03a00a08d2b5"
     },
     "zhu2025demonagent": {
-      "citationCount": 23,
+      "citationCount": 24,
       "externalId": "ARXIV:2502.12575",
       "paperId": "7df6c899cc46514464749bbe33acc51a57cec1d6",
       "title": "DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent",
