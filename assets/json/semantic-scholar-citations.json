@@ -1,9 +1,9 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-09-23T07:46:26Z",
+  "updated_at": "2026-09-24T07:36:45Z",
   "papers": {
     "he2025mitigating": {
-      "citationCount": 46,
+      "citationCount": 47,
       "externalId": "DOI:10.1016/j.ipm.2025.104150",
       "paperId": "f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a",
       "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
