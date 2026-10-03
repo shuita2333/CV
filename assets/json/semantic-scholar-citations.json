@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-02T08:33:31Z",
+  "updated_at": "2026-10-03T08:09:04Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 48,
@@ -115,7 +115,7 @@
       "url": "https://www.semanticscholar.org/paper/783c458d78aa4a54dff369a87d051a5d3a0052a7"
     },
     "lin2026echodistill": {
-      "citationCount": 2,
+      "citationCount": 3,
       "externalId": "ARXIV:2605.23954",
       "paperId": "401062057bb4bb30ac9ea708170e105a5f15815e",
       "title": "EchoDistill:Alignment Noisy-to-Clean Self-Distillation for Robust Audio LLMs",
