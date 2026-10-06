@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-05T09:06:22Z",
+  "updated_at": "2026-10-06T09:00:01Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 48,
@@ -17,7 +17,7 @@
       "url": "https://www.semanticscholar.org/paper/e104b496b4d11b67b2dff519a3602037d6fbe123"
     },
     "zhang2025crabs": {
-      "citationCount": 46,
+      "citationCount": 47,
       "externalId": "DOI:10.18653/v1/2025.findings-acl.580",
       "paperId": "60c2668a9c35f366b2e28e196abb03a00a08d2b5",
       "title": "Crabs: Consuming Resource via Auto-generation for LLM-DoS Attack under Black-box Settings",
@@ -31,7 +31,7 @@
       "url": "https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"
     },
     "lin2026hidden": {
-      "citationCount": 11,
+      "citationCount": 13,
       "externalId": "ARXIV:2508.02175",
       "paperId": "f70d84b95393c6579c216e298b5dc98fa1474151",
       "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
@@ -59,14 +59,14 @@
       "url": "https://www.semanticscholar.org/paper/5c0ede386cf01c45091c475b98bef2f78072599f"
     },
     "luo2026survey": {
-      "citationCount": 5,
+      "citationCount": 6,
       "externalId": "ARXIV:2605.20266",
       "paperId": "80262cc3d034e0683c57165e2130ba545bd80497",
       "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
       "url": "https://www.semanticscholar.org/paper/80262cc3d034e0683c57165e2130ba545bd80497"
     },
     "zhang2026see": {
-      "citationCount": 6,
+      "citationCount": 7,
       "externalId": "ARXIV:2601.07331",
       "paperId": "84bd2976967ac06813428cadd73010d4eaadda81",
       "title": "SEE: Signal Embedding Energy for Quantifying Noise Interference in Large Audio Language Models",
@@ -115,11 +115,11 @@
       "url": "https://www.semanticscholar.org/paper/783c458d78aa4a54dff369a87d051a5d3a0052a7"
     },
     "lin2026echodistill": {
-      "citationCount": 3,
+      "citationCount": 0,
       "externalId": "ARXIV:2605.23954",
-      "paperId": "401062057bb4bb30ac9ea708170e105a5f15815e",
-      "title": "EchoDistill:Alignment Noisy-to-Clean Self-Distillation for Robust Audio LLMs",
-      "url": "https://www.semanticscholar.org/paper/401062057bb4bb30ac9ea708170e105a5f15815e"
+      "paperId": "d7356f95d96f46d78bc8ead22842e561d77bbadb",
+      "title": "EchoDistill: Robust Large Audio Language Models via Noisy-to-Clean Self-Distillation",
+      "url": "https://www.semanticscholar.org/paper/d7356f95d96f46d78bc8ead22842e561d77bbadb"
     },
     "zhang2026larft": {
       "citationCount": 1,
