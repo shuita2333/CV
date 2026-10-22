@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-21T07:40:43Z",
+  "updated_at": "2026-10-22T07:36:37Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 51,
@@ -31,7 +31,7 @@
       "url": "https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"
     },
     "lin2026hidden": {
-      "citationCount": 15,
+      "citationCount": 16,
       "externalId": "ARXIV:2508.02175",
       "paperId": "f70d84b95393c6579c216e298b5dc98fa1474151",
       "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
@@ -52,7 +52,7 @@
       "url": "https://www.semanticscholar.org/paper/862cf894d5234e55038e588326b0ed86eca878b3"
     },
     "zhang2025lifebench": {
-      "citationCount": 15,
+      "citationCount": 16,
       "externalId": "ARXIV:2505.16234",
       "paperId": "5c0ede386cf01c45091c475b98bef2f78072599f",
       "title": "LIFEBench: Evaluating Length Instruction Following in Large Language Models",
