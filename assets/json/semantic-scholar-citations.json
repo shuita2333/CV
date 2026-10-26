@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-24T07:18:34Z",
+  "updated_at": "2026-10-26T07:49:19Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 51,
@@ -31,7 +31,7 @@
       "url": "https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"
     },
     "lin2026hidden": {
-      "citationCount": 16,
+      "citationCount": 17,
       "externalId": "ARXIV:2508.02175",
       "paperId": "f70d84b95393c6579c216e298b5dc98fa1474151",
       "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
