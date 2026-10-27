@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-26T07:49:19Z",
+  "updated_at": "2026-10-27T07:54:01Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 51,
@@ -45,7 +45,7 @@
       "url": "https://www.semanticscholar.org/paper/96ded112a8bb6a1892f9937751c820e308112510"
     },
     "zhou2026mcpshield": {
-      "citationCount": 4,
+      "citationCount": 5,
       "externalId": "ARXIV:2602.14281",
       "paperId": "862cf894d5234e55038e588326b0ed86eca878b3",
       "title": "MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents",
