@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-10-31T08:27:15Z",
+  "updated_at": "2026-11-02T09:32:14Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 51,
@@ -10,7 +10,7 @@
       "url": "https://www.semanticscholar.org/paper/f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a"
     },
     "zhou2026corba": {
-      "citationCount": 24,
+      "citationCount": 25,
       "externalId": "ARXIV:2502.14529",
       "paperId": "e104b496b4d11b67b2dff519a3602037d6fbe123",
       "title": "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models",
@@ -31,7 +31,7 @@
       "url": "https://www.semanticscholar.org/paper/7df6c899cc46514464749bbe33acc51a57cec1d6"
     },
     "lin2026hidden": {
-      "citationCount": 17,
+      "citationCount": 18,
       "externalId": "ARXIV:2508.02175",
       "paperId": "f70d84b95393c6579c216e298b5dc98fa1474151",
       "title": "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers",
