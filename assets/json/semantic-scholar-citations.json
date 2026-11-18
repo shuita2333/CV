@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-11-17T10:44:31Z",
+  "updated_at": "2026-11-18T10:11:42Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 55,
@@ -59,7 +59,7 @@
       "url": "https://www.semanticscholar.org/paper/5c0ede386cf01c45091c475b98bef2f78072599f"
     },
     "luo2026survey": {
-      "citationCount": 11,
+      "citationCount": 12,
       "externalId": "ARXIV:2605.20266",
       "paperId": "80262cc3d034e0683c57165e2130ba545bd80497",
       "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
