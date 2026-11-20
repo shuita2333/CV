@@ -1,16 +1,16 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-11-19T10:22:20Z",
+  "updated_at": "2026-11-20T10:02:56Z",
   "papers": {
     "he2025mitigating": {
-      "citationCount": 55,
+      "citationCount": 56,
       "externalId": "DOI:10.1016/j.ipm.2025.104150",
       "paperId": "f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a",
       "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
       "url": "https://www.semanticscholar.org/paper/f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a"
     },
     "zhou2026corba": {
-      "citationCount": 26,
+      "citationCount": 27,
       "externalId": "ARXIV:2502.14529",
       "paperId": "e104b496b4d11b67b2dff519a3602037d6fbe123",
       "title": "CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models",
@@ -59,7 +59,7 @@
       "url": "https://www.semanticscholar.org/paper/5c0ede386cf01c45091c475b98bef2f78072599f"
     },
     "luo2026survey": {
-      "citationCount": 12,
+      "citationCount": 13,
       "externalId": "ARXIV:2605.20266",
       "paperId": "80262cc3d034e0683c57165e2130ba545bd80497",
       "title": "A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook",
@@ -94,7 +94,7 @@
       "url": "https://www.semanticscholar.org/paper/adfc19ad22c2ba146e6c3bb27320564c65676256"
     },
     "wang2026helpfulness": {
-      "citationCount": 3,
+      "citationCount": 4,
       "externalId": "ARXIV:2602.04197",
       "paperId": "527454d6bafd27bac7db7584fb68ba07f902eda6",
       "title": "From Helpfulness to Toxic Proactivity: Diagnosing Behavioral Misalignment in LLM Agents",
