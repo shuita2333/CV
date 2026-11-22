@@ -10,7 +10,7 @@
   venue: AAAI
   note: Oral
   title: "Hidden in the Noise: Unveiling Backdoors in Audio LLMs Alignment through Latent Acoustic Pattern Triggers"
-  authors: "L. Lin, M. Yu, K. Luo, <strong>Y. Zhang</strong>, L. Peng, D. Wang, X. Tang, Y. Zhang, X. Yang, et al."
+  authors: "L. Lin, M. Yu, K. Luo, Yibo Zhang, L. Peng, D. Wang, X. Tang, <strong>Yuanhe Zhang</strong>, X. Yang, et al."
   url: "https://arxiv.org/abs/2508.02175"
 
 - key: zhou2026mcpshield
