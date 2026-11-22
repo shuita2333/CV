@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-11-21T09:51:07Z",
+  "updated_at": "2026-11-22T09:48:18Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 56,
@@ -73,7 +73,7 @@
       "url": "https://www.semanticscholar.org/paper/84bd2976967ac06813428cadd73010d4eaadda81"
     },
     "zhang2026resource": {
-      "citationCount": 3,
+      "citationCount": 4,
       "externalId": "ARXIV:2603.16068",
       "paperId": "fd83f3dece8ba00c6f1dec77169dd31fc3b152da",
       "title": "Resource Consumption Threats in Large Language Models",
