@@ -1,6 +1,6 @@
 {
   "source": "Semantic Scholar Academic Graph API",
-  "updated_at": "2026-11-25T11:18:59Z",
+  "updated_at": "2026-11-26T10:55:36Z",
   "papers": {
     "he2025mitigating": {
       "citationCount": 57,
@@ -101,7 +101,7 @@
       "url": "https://www.semanticscholar.org/paper/527454d6bafd27bac7db7584fb68ba07f902eda6"
     },
     "zhang2025leechhijack": {
-      "citationCount": 5,
+      "citationCount": 6,
       "externalId": "ARXIV:2512.02321",
       "paperId": "c7463808b05cc4dd058a5b5073c823dd2a69ab8a",
       "title": "LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems",
